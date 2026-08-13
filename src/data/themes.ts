@@ -1,0 +1,111 @@
+// import { ThemeId, WatchTheme } from '../types';
+
+// export const THEMES: Record<ThemeId, WatchTheme> = {
+//   'neon-kinetic': {
+//     id: 'neon-kinetic',
+//     bgFrom: '#0a0a0f',
+//     bgTo: '#140a1f',
+//     accent: '#00f6ff',
+//     accentSoft: 'rgba(0,246,255,0.18)',
+//     bloom: '#a855f7',
+//     headingFont: 'geo',
+//     ringColor: '#00f6ff',
+//   },
+//   'titanium-core': {
+//     id: 'titanium-core',
+//     bgFrom: '#1c1e22',
+//     bgTo: '#0f1012',
+//     accent: '#ffb020',
+//     accentSoft: 'rgba(255,176,32,0.16)',
+//     bloom: '#ffb020',
+//     headingFont: 'mono',
+//     ringColor: '#ffb020',
+//   },
+//   'quantum-void': {
+//     id: 'quantum-void',
+//     bgFrom: '#050507',
+//     bgTo: '#0a0714',
+//     accent: '#e879f9',
+//     accentSoft: 'rgba(232,121,249,0.16)',
+//     bloom: '#7dd3fc',
+//     headingFont: 'serif',
+//     ringColor: '#7dd3fc',
+//   },
+//   'core-minimal': {
+//     id: 'core-minimal',
+//     bgFrom: '#1b1c1e',
+//     bgTo: '#0c0d0e',
+//     accent: '#c7cdd6',
+//     accentSoft: 'rgba(199,205,214,0.16)',
+//     bloom: '#8fa3ad',
+//     headingFont: 'mono',
+//     ringColor: '#c7cdd6',
+//   },
+// };
+
+
+import { ThemeId, WatchTheme } from '../types';
+
+export const THEMES: Record<ThemeId, WatchTheme> = {
+  'neon-kinetic': {
+    id: 'neon-kinetic',
+    bgFrom: '#0a0a0f',
+    bgTo: '#140a1f',
+    accent: '#00f6ff',
+    accentSoft: 'rgba(0,246,255,0.18)',
+    bloom: '#a855f7',
+    headingFont: 'geo',
+    ringColor: '#00f6ff',
+  },
+  'titanium-core': {
+    id: 'titanium-core',
+    bgFrom: '#1c1e22',
+    bgTo: '#0f1012',
+    accent: '#ffb020',
+    accentSoft: 'rgba(255,176,32,0.16)',
+    bloom: '#ffb020',
+    headingFont: 'mono',
+    ringColor: '#ffb020',
+  },
+  'quantum-void': {
+    id: 'quantum-void',
+    bgFrom: '#050507',
+    bgTo: '#0a0714',
+    accent: '#e879f9',
+    accentSoft: 'rgba(232,121,249,0.16)',
+    bloom: '#7dd3fc',
+    headingFont: 'serif',
+    ringColor: '#7dd3fc',
+  },
+
+  'quantum-void-home': {
+    id: 'quantum-void',
+    bgFrom: '#12151a',
+    bgTo: '#0a0c10',
+    accent: '#a9b8c4',
+    accentSoft: 'rgba(169,184,196,0.16)',
+    bloom: '#c3d1db',
+    headingFont: 'serif',
+    ringColor: '#a9b8c4',
+  },
+  'core-minimal': {
+    id: 'core-minimal',
+    bgFrom: '#1b1c1e',
+    bgTo: '#0c0d0e',
+    accent: '#c7cdd6',
+    accentSoft: 'rgba(199,205,214,0.16)',
+    bloom: '#8fa3ad',
+    headingFont: 'mono',
+    ringColor: '#c7cdd6',
+  },
+  'kinetic-mono': {
+    id: 'kinetic-mono',
+    bgFrom: '#10161c',
+    bgTo: '#080b0f',
+    accent: '#6fa8dc',
+    accentSoft: 'rgba(111,168,220,0.16)',
+    bloom: '#8fb8e0',
+    headingFont: 'geo',
+    ringColor: '#6fa8dc',
+  },
+};
